@@ -1,0 +1,509 @@
+
+            /*-----Universal-----*/
+
+body {
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: left;
+}
+
+p {
+  color: #000000;
+}
+
+.centre-text {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding:0.75rem;
+}
+
+.list-text {
+  font-weight: 600;
+  font-size: 120%;
+}
+
+	
+.btn-danger {  background-color: #b90005 !important; 
+  border-color:#b90005;
+  color: #fff !important; 
+}
+
+/* #email-us-button {
+  float: right;
+} */
+
+
+/* form:*/
+
+#contact-button {
+    float: right;
+ }
+
+ #submit_button {
+float: left;
+ }
+
+.form-label {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+
+.mb-3 {
+  text-align: left;
+}
+
+#emailHelp {
+  text-align: left;
+}
+
+#exampleFormControlTextarea1 {
+  line-height: 5%;
+  padding: 2% 0% 0% 1%;
+}
+
+
+
+
+/* icons */
+
+ .icon {
+  margin-bottom: 1rem;
+  position:relative;
+}
+
+ #icon-on-black {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  color:#688eb6;
+}
+
+#icon-on-white {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  color:#688eb6;
+}
+
+/* bbc yellow #FFD230 */
+
+
+              /*-----Universal Containers and Sections-----*/
+
+
+.container-fluid{
+  padding: 2% 8% 2% 6%;
+  width: 100%;
+}
+
+section {
+  scroll-margin-top: 70px;
+}/* makes jump-to position below sticky navbar */
+
+
+.white-section {
+  background-color: #fff;
+  text-align: left;
+}
+
+.black-section {
+  background-color: #000000;
+  color: #fff;
+  text-align: left;
+}
+
+.section-heading {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 2%;
+}
+
+.section-heading-centre {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align:center;
+  margin-bottom: 2%;
+}
+
+.external_page_banner {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align:left;
+  margin: 0% 5%;
+  
+}
+
+
+            /* -----Specific Section Controls----- */
+
+
+
+      /* Top Banner */
+
+.top-banner {
+  background-color: #000000;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem;
+      }
+      
+      
+
+      /* Navigation Bar */
+
+.navbar {
+  background-color: #fff;
+  /* border-bottom: 1px solid #000000; */
+}
+
+.logo {
+  height: 5rem;
+  padding: 0% 8% 0% 8%;
+}
+
+.navbar-brand {
+  font-family: "Caladea";
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000000;
+  margin-right: auto;
+  text-decoration: none;
+  }
+
+ .nav-item {
+  padding: 0 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #000000;
+}
+
+#drop-btn {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #000000;
+}
+
+.dropdown-item {
+  font-size: 1.2rem;
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+  color: #000000;
+}
+
+.navbar-toggler-icon {
+    background-color:#fff;
+    border-color:#000000;
+}
+
+
+      /* ---Lead Banner--- */
+
+     
+.busy-heading-centre {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.6;
+    margin-bottom: 0.7rem;
+    text-align: center;
+    padding: 0% 0% 0% 4%;
+        }
+
+
+
+.here-to-help-heading {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.6;
+    margin-bottom: 0.7rem;
+    text-align: left;
+    padding: 0% 0% 0% 12%;
+        }
+
+
+.here-to-help-list {
+  padding: 0% 0% 5% 12%;
+  margin:0%;
+}
+
+
+#word-cloud {
+  width: 110%;
+  height: auto;
+     }
+    
+#lead-contact-button{
+  float: right;
+  margin: 5% -5% 2% 10%;
+}
+
+
+/* ---Services Sections---  */
+
+#services {
+  position: relative;
+}
+
+.services-box {
+  padding: 1%;
+}
+
+.services-title {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2% 0% 2% 0%;
+}
+
+
+.services-text{
+  font-family:Source Sans Pro;
+  font-size: 1.1rem;
+  line-height: 110%;
+  text-align: justify-left;
+  padding: 2% 0% 2% 0%;
+ }
+
+.services-white-text{
+  color:#fff;
+  text-align: justify;
+  }
+
+
+.services-list {
+    margin: 0% 0% 0% 0%;
+  }
+  
+
+.example-link {
+  color:#b90005;
+   /* padding: 0 0 0 10%; */
+ }
+
+
+
+
+/* Illustration Section */
+
+.DNA {
+  width: 45%;
+  height: auto;
+}
+
+
+/* Data Visualisation Section */
+
+
+  .bubble1 {
+    width: 40%;
+    height: auto;
+  }
+  
+
+/*---How it works Section---*/
+
+  #how_works_icon {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+
+
+
+
+      /* Pricing Section */
+
+.black-section-pricing {
+  background-color: #000000;
+  color: #fff;
+  text-align: left;
+  margin: 0% 0% 0% 0%;
+}
+
+
+
+#pricing {
+  text-align: center;
+  color:#fff;
+  padding: 2.5% 0% 0.5% 0%;
+}
+
+.white-text {
+  color:#fff;
+}
+
+.card-header {
+  color:#000000;
+}
+
+.card-service {
+  text-align: left;
+  margin: 0 0 0 5rem;
+}
+
+.price-text { 
+  text-align: center;
+  color:#000000;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+/* FAQ Section */
+
+.black-section-faq {
+  background-color: #000000;
+  color: #fff;
+  text-align: left;
+  padding: 1rem;
+}
+
+.big-heading-faq {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+    /* Contact buttons */
+
+    .contact-black {
+      background-color: #000000;
+      padding: 0%;
+    }
+    
+    #contact-black {
+      padding: 3% 6% 2% 5%;
+    }
+    
+    
+    .contact-white {
+      background-color: #fff;
+      padding: 0%;
+    }
+    
+    #contact-white {
+      padding: 3% 6% 2% 5%;
+    }
+    
+   
+
+      /* Footer Section */
+
+#footer {
+  color:#fff;
+ }
+
+#footer-container {
+  padding: 0 5%;
+}
+
+
+.footer-link {
+  color:#fff;
+  font-size: 0.8rem;
+  /* padding: 0 0 0 10%; */
+ }
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+#copyright {
+  color: #fff;
+  text-align: center;
+  font-size: 0.6rem;
+  padding: 0.5%;
+ }
+
+
+            /*-----Bootstrap Components-----*/
+
+
+      /* Carousels */
+
+
+      /* Illustration carousel on white background */
+.illust-carousel {
+  background-color: #fff;
+}
+
+.illust-carousel .carousel-indicators [data-bs-target]/* change indicators to black on a white background */ {
+  background-color: #000000;
+}
+
+.illust-slide-label {
+  color:#000000;
+  text-align: center;
+}
+
+#illust-nxt-blk /*.carousel-arrow-next is black */ {
+  filter: invert(100%);
+}
+
+#illust-prev-blk /*.carousel-arrow-previous is black */ {
+filter: invert(100%);
+}
+
+
+/* Data vis carousel on black background */
+.dv-carousel {
+  background-color: #000000;
+}
+
+.dv-carousel-text {
+  color:#fff;
+  }
+
+.slide-label {
+  text-align: center;
+}
+      /*-----Accordion------ */
+
+.accordion-item { 
+  text-align: left; }
+
+
+
+
+        /*-----Endnotes-----*/
+  /* intentionally not left blank */
